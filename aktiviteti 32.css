@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+   width: 1000px;
+   height: 500px;
+   border: 1px solid black;
+   justify-content: space-around;
+   align-items: center;
+}
+.box1{
+    background-color: purple;
+
+}
+.box2{
+    background-color: aquamarine;
+  
+}.box3{
+    background-color: green;
+ 
+}
+.box4{
+    background-color: blue;
+  
+}
+.box5{
+    background-color: yellow;
+    
+}
+.box6{
+    background-color: pink;
+    
+}
+.box7{
+    background-color: red;
+    
+}

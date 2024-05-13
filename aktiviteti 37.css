@@ -1,0 +1,60 @@
+.first-row,
+.second-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+}
+.card {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+  transition: transform 1s ease-in;
+  transform-origin: 0 0;
+}
+.blue {
+  background-color: blue;
+  transition: transform 1s ease-in;
+  transform-origin: 100px 0;
+}
+.yellow {
+  background-color: yellow;
+  transition: transform 1s ease-in;
+  transform-origin: 0 100px;
+}
+
+.green {
+  background-color: green;
+  transition: transform 1s ease-in;
+  transform-origin: 100px 100px;
+}
+
+.first-row {
+  margin-top: 300px;
+}
+
+.container:hover .first-row .red {
+  transform: rotate(90deg);
+}
+
+.container:hover .first-row .blue {
+  transform: rotate(-90deg);
+}
+
+.container:hover .second-row .yellow {
+  transform: rotate(-90deg);
+}
+
+.container:hover .second-row .green {
+  transform: rotate(90deg);
+}
+
+h1 {
+  position: relative;
+  top: 410px;
+  left: 370px;
+  font-size: 20px;
+  font-weight: 700;
+  z-index: -1;
+}

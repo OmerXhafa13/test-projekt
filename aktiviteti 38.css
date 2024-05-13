@@ -1,0 +1,14 @@
+.car{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    animation: drive 3s infinite;
+}
+@keyframes drive{
+0%    { top: 100px;}
+25%   {top: 0px;}
+}
+
+

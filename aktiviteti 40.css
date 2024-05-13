@@ -1,0 +1,30 @@
+a:hover{
+    color: aqua;
+}
+h1:hover{
+    color: orange;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: black;
+}
+h1:active{
+    color:pink;
+}
+.description::before{
+ content: " ";
+ width: 10px;
+ height: 10px;
+ background-color: red;
+ display: inline-block;
+}
+.description::after{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+}
+animation

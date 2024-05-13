@@ -1,0 +1,19 @@
+
+@media only screen and (min-width:1024px){
+    *{
+        margin: 0;
+        padding:0;
+    
+}
+
+@media only screen and (max-width:1023px){
+    body{
+        background-color:green;
+    }
+}
+
+@media only screen and (max-width:767px){
+    body{
+        background-color:red;
+    }
+}

@@ -1,0 +1,35 @@
+.tooltip{
+    top: 50px;
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+
+.tooltip::before{
+    content: attr(data-text);
+    position: absolute;
+
+    //pozicionin vertikal
+    top: 50%;
+    transform: translateY(-50%);
+
+    //leviz djathtas
+    left: 100%;
+    margin-left: 15px;
+    //stilizimi bazik
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+
+
+    opacity: 0;
+    transition: opacity 0,3s;
+    display: block;
+}
+
+.tooltip:hover::before{
+    display: block;
+    opacity: 1;
+}

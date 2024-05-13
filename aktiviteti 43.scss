@@ -1,0 +1,10 @@
+$mycolor:aqua;
+
+h1{
+    color:$mycolor;
+}
+
+p{
+    $mycolor:red;
+    color:$mycolor;
+}
